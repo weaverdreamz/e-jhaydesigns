@@ -1,0 +1,259 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX;
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .Checkout{
+        width:95%;
+        margin:3rem auto 0 auto;
+        cursor:pointer;
+        
+        .header-container{
+            display:grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-gap:0.3rem;
+            .heading{
+                width:100%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+                font-size:0.75rem;
+                             
+            }
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize; 
+        }
+
+        .payment{
+
+            width:80%;
+            margin:1rem auto 0 auto;
+        }
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX;
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .Checkout{
+        cursor:pointer;
+        width:95%;
+        margin:3rem auto 0 auto;
+        
+        .header-container{
+            display:grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-gap:0.5rem;
+            .heading{
+                width:100%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+                font-size:0.8rem;
+                
+            }
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+
+        .payment{
+
+            width:50%;
+            margin:0.7rem auto 0 auto;
+        }
+    }
+}
+
+
+    
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .Checkout{
+        width:90%;
+        margin:4rem auto 0 auto;
+        cursor:pointer;
+        
+        .header-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            .heading{
+                width:19%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+            }
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX;
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .Checkout{
+        width:90%;
+        margin:4rem auto 0 auto;
+        cursor:pointer;
+        
+        .header-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            .heading{
+                width:19%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+            }
+             
+         
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+        .payment{
+
+            width:48%;
+            margin:1.5rem auto 0 auto;
+        }
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    .Checkout{
+        width:90%;
+        margin:4rem auto 0 auto;
+        height:25rem;
+        overflow:auto;
+        cursor:pointer;
+
+        .header-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            .heading{
+                width:19%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+            }
+             
+         
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+
+        .payment{
+
+            width:32%;
+            margin:1.5rem auto 0 auto;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .Checkout{
+        width:90%;
+        margin:4rem auto 0 auto;
+        height:27rem;
+        overflow:auto;
+        cursor:pointer;
+
+        .header-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            .heading{
+                width:19%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+            }
+             
+         
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+        .payment{
+
+            width:22%;
+            margin:1.5rem auto 0 auto;
+        }
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ....
+@media only screen and (min-width:1201px){
+    .Checkout{
+        width:80%;
+        margin:4rem auto 0 auto;
+        height:27rem;
+        overflow:auto;
+        cursor:pointer;
+
+        .header-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            .heading{
+                width:19%;
+                text-align:center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+            }
+             
+         
+        }
+        .total{
+            float:right;
+            text-align:center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+        .payment{
+
+            width:20%;
+            margin:1.5rem auto 0 auto;
+        }
+    }      
+}

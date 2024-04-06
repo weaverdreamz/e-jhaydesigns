@@ -1,0 +1,226 @@
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(320 TILL 480PX)
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .Bnav{
+        display:none
+    }
+}
+
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(481 TILL 599PX)
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    .Bnav{
+        display:none
+    }
+}
+
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(600 TILL 768PX)
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .Bnav{
+        display:none
+    }
+}
+
+
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(769 TILL 1024PX)
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .Bnav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:2rem 0 0 0;
+        
+
+        .h1{
+            
+            width:40%;
+            color:#000000;
+
+            h4{
+                
+                text-align:center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                letter-spacing:4px;
+                cursor:pointer;
+                font-size:2rem;
+                
+    
+            }
+        }
+        .nav-menu{
+            width:32%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size: 0.8rem;
+                padding:1.5rem 0 0 0;
+                color:rgb(23, 31, 28);
+                cursor:pointer;
+
+            }
+        }
+        .adjust-menu{
+            width:52%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size: 0.8rem;
+                padding:1.5rem 0 0 0;
+                color:rgb(23, 31, 28);
+                cursor:pointer;
+
+            }
+        }
+        
+
+       
+        
+    }
+}
+
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(1025 TILL 1200PX)
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .Bnav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:2rem 0 0 0;
+
+        .h1{
+            color:#000000;
+            width:50%;
+            h4{
+                text-align:center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                letter-spacing:4px;
+                cursor:pointer;
+                font-size:2.8rem
+                
+    
+            }
+        }
+        .nav-menu{
+            width:23%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size: 0.7rem;
+                padding:1.7rem 0 0 0;
+                color:rgb(23, 31, 28);
+                cursor:pointer;
+
+            }
+        }
+        .adjust-menu{
+            width:36%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size: 0.7rem;
+                padding:1.7rem 0 0 0;
+                color:rgb(23, 31, 28);
+                cursor:pointer;
+
+            }
+        }
+       
+
+     
+        
+    }
+}
+
+//THIS IS THE STYLING PROPERTY FOR DEVICE WITH WIDTH(1201 TILL ...)
+
+@media only screen and (min-width:1201px){
+    .Bnav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:2rem 0 0 0;            
+        
+        .h1{
+            color:#000000;
+            width:55%;
+            h4{
+                
+                text-align:center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                letter-spacing:4px;
+                cursor:pointer;
+                font-size:3rem;
+                
+    
+            }
+        }
+        .nav-menu{
+            width:23%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-weight:bold;
+                font-size: 0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:1.5rem 0 0 0;
+                color:rgb(23, 31, 28);
+
+            }
+
+            
+        }
+
+        .adjust-menu{
+            width:42%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+
+            .navs{
+                font-weight:bold;
+                font-size: 0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:1.5rem 0 0 0;
+                color:rgb(23, 31, 28);
+
+            }
+        }
+
+        
+
+     
+        
+    }
+}

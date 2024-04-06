@@ -1,0 +1,3 @@
+export const MOBILE_MENU_ACTION_TYPES = {
+    MOBILE_MENU:'MOBILE_MENU'
+}

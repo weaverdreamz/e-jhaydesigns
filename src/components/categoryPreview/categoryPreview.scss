@@ -1,0 +1,147 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .previews{
+        cursor:pointer;
+        margin:2rem 0 0 0;
+        h2, Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.6rem 0;
+            font-size:1rem;
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-gap:0.45rem;
+
+
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .previews{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        h2, Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.5rem 0;
+            font-size:1.2rem
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-gap:0.5rem;
+
+
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .previews{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        h2, Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.6rem 0;
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-gap:0.5rem;
+
+
+        }
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    .previews{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        h2, Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.4rem 0;
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(4, 1fr);
+            grid-gap:0.5rem;
+
+        }
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX 
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .previews{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        h2,Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.4rem 0;
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(4, 1fr);
+            grid-gap:0.5rem;
+
+
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+@media only screen and (min-width:1201px){
+    .previews{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        h2, Link{
+            color:rgb(56, 3, 3);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:italic;
+            text-align:center;
+            margin:0 0 0.4rem 0;
+        }
+        .gorypreview{
+
+            display:grid;
+            grid-template-columns:repeat(4, 1fr);
+            grid-gap:0.5rem;
+
+
+        }
+    }
+}

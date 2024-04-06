@@ -1,0 +1,87 @@
+//THIS IS THE STYLING FOR DEVICE WIDTH 320PX TILL 768PX
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .cart{
+        display:none;
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WIDTH 769PX TILL 1024
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .cart{
+        width:30%;
+        border:0.1rem solid #000;
+        height:16rem;
+        cursor:pointer;
+        margin:0 0 0 64%;
+        background:white;
+        z-index:1000;
+        position:absolute;
+
+        .cartContainer {
+            margin: 0.6rem auto 0 auto;
+            width:95%;
+            height:12rem;
+            overflow:auto;
+        }
+        Button{
+            margin:0.5rem auto 0 auto;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .cart{
+        width:22%;
+        border:0.1rem solid #000;
+        height:16rem;
+        cursor:pointer;
+        margin:0 0 0 72%;
+        background:white;
+        z-index:1000;
+        position:absolute;
+
+        .cartContainer {
+            margin: 0.6rem auto 0 auto;
+            width:95%;
+            height:12rem;
+            overflow:auto;
+        }
+        Button{
+            margin:0.5rem auto 0 auto;
+        }
+    }
+  
+
+}
+
+
+
+//THIS IS THE STYLING FOR DEVICE WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    .cart{
+        width:22%;
+        border:0.1rem solid #000;
+        height:18rem;
+        margin:0 0 0 72%;
+        cursor:pointer;
+        background:#ffffff;
+        z-index:1000;
+        position:absolute;
+        
+        .cartContainer {
+            margin: 0.6rem auto 0 auto;
+            width:95%;
+            height:14rem;
+            overflow:auto;
+        }
+
+        Button{
+            margin:0.5rem auto 0 auto;
+        }
+    }
+}

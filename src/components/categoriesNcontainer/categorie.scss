@@ -1,0 +1,77 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+@media only screen and (min-width:320px) and (max-width:480px){
+    .categorie{
+        margin:0.5rem 0 0 0;
+        width:100%;
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .categorie{
+        margin:0.5rem 0 0 0;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        width:100%;
+        height:33.5rem;
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+  .categorie{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width:100%;
+    margin:0.5rem 0 0 0;
+    height:35.5rem;
+  }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .categorie{
+        width:40%;
+        height:29rem;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .categorie{
+        width:40%;
+        height:33rem;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    
+
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL 
+
+@media only screen and (min-width:1201px){
+    .categorie{
+        width:40%;
+        height:34.27rem;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+}

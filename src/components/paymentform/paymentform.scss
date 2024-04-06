@@ -1,0 +1,269 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .paymentform{
+
+        margin:3.5rem auto 0 auto;
+        width:85%;
+
+        form{
+
+            h3{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size:1.07rem;
+                padding:0 0 1.5rem 0;
+                color:rgb(11, 39, 65);
+                text-align:center;
+            }
+
+            .first{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                top:-0.3rem;
+               
+
+            }
+            .second, .third, .fourth{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                margin:0 0 0.2rem 0;
+
+            }
+
+            Button{
+                width:40%;
+                display:block;
+                margin:0 auto;
+            }
+        }
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    .paymentform{
+
+        margin:6rem auto 0 auto;
+        width:80%;
+
+        form{
+            h3{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size:1.4rem;
+                padding:0 0 1rem 0;
+                color:rgb(11, 39, 65);
+                text-align:center
+            }
+
+            .first{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                top:-0.45rem;
+               
+
+            }
+            .second, .third, .fourth{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                margin:0 0 0.2rem 0;
+
+            }
+
+            Button{
+                width:35%;
+                display:block;
+                margin:0 auto;
+            }
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .paymentform{
+
+        margin:8rem auto 0 auto;
+        width:77%;
+
+        form{
+            h3{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size:1.4rem;
+                padding:0 0 1.5rem 0;
+                color:rgb(11, 39, 65);
+                text-align:center;
+            }
+
+            .first{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                top:-0.45rem;
+               
+
+            }
+            .second, .third, .fourth{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                margin:0 0 0.25rem 0;
+
+            }
+
+            Button{
+                width:30%;
+                display:block;
+                margin:0 auto;
+            }
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    
+    .paymentform{
+        width:50%;
+        margin:0 auto;
+
+        form{
+
+            h3{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight:bold;
+                font-size:1.3rem;
+                padding:0 0 2rem 0;
+                color:rgb(11, 39, 65);
+                text-align:center
+            }
+
+            .first{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                top:-0.3rem;
+               
+
+            }
+            .second, .third, .fourth{
+                color:rgb(11, 39, 65);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                margin:0 0 0.2rem 0;
+
+            }
+
+            Button{
+                   
+                display:block;
+                margin:0 auto;
+                width:25%;
+                
+            }
+        }
+
+    }
+
+}
+//THIS IS THE STYLING FO DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+
+    .paymentform{
+        width:43%;
+        margin:0 auto;
+
+            form{
+
+                h3{
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-weight:bold;
+                    font-size:1.3rem;
+                    padding:0 0 3rem 0;
+                    color:rgb(11, 39, 65);
+                    text-align: center;
+                }
+    
+                .first{
+                    color:rgb(11, 39, 65);
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    position:relative;
+                    top:-0.5rem;
+                   
+    
+                }
+                .second, .third, .fourth{
+                    color:rgb(11, 39, 65);
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    position:relative;
+                    margin:0 0 0.25rem 0;
+    
+                }
+
+                Button{
+                   
+                    display:block;
+                    margin:0 auto;
+                    width:25%;
+                    
+                }
+            }
+        }
+    }
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    .paymentform{
+        width:40%;
+        margin:0 auto;
+            form{
+                h3{
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-weight:bold;
+                    font-size:1.2rem;
+                    padding:0 0 3rem 0;
+                    color:rgb(11, 39, 65);
+                    text-align:center;
+                }
+                .first{
+                    color:rgb(11, 39, 65);
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    position:relative;
+                    top:-0.5rem;
+                   
+    
+                }
+                .second, .third, .fourth{
+                    color:rgb(11, 39, 65);
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    position:relative;
+                    margin:0 0 0.2rem 0;
+    
+                }
+
+                Button{
+                   
+                    display:block;
+                    margin:0 auto;
+                    width:20%;
+                    
+                }
+
+        }
+    }
+}

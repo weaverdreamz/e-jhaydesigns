@@ -1,0 +1,72 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .authpage{
+
+        margin:3.5rem auto 0 auto;
+        width:85%;
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    .authpage{
+
+        margin:6rem auto 0 auto;
+        width:80%;
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .authpage{
+
+        margin:8rem auto 0 auto;
+        width:77%;
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .authpage{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin:4rem auto 0 auto;
+        width:80%;
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .authpage{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin:4rem auto 0 auto;
+        width:80%;
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    .authpage{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin:4rem auto 0 auto;
+        width:80%;
+    }
+}

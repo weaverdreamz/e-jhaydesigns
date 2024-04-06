@@ -1,0 +1,101 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 768PX
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+    .cartitems{
+        display:none;
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .cartitems{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        height:4rem;
+        position:relative;
+        margin:0.3rem 0 0 0;
+    
+        .image{
+    
+            width:30%;
+           
+            
+            img{
+                width:100%;
+                height:3.8rem;
+            }
+        }
+        .footer{
+            width:65%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:0.8rem;
+            padding:0.9rem  0 0 0;
+        }
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .cartitems{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        height:4rem;
+        position:relative;
+        margin:0.3rem 0 0 0;
+    
+        .image{
+    
+            width:33%;
+           
+            
+            img{
+                width:100%;
+                height:3.8rem;
+            }
+        }
+        .footer{
+            width:64%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:0.8rem;
+            padding:0.9rem  0 0 0;
+        }
+    }
+}
+//THIS IS THE STYLING FOR  DEVICE WITH WIDTH 1201PX TILL
+@media only screen and (min-width:1201px){
+    .cartitems{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        position:relative;
+        height:5rem;
+        margin:0.3rem  0 0 0;
+    
+        .image{
+    
+            width:40%;
+            
+            
+            img{
+                width:100%;
+                height:4.8rem;
+            }
+        }
+        .footer{
+            width:57%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:0.8rem;
+            padding:0.7rem  0 0 0;
+        }
+    
+    }
+} 
+

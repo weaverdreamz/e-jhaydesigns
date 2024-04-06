@@ -1,0 +1,456 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .signed{
+
+        height:2.3rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:rgb(11, 39, 65);
+        border:none;
+        border:rgb(11, 39, 65);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:32%;
+        margin:0.2rem auto 0 auto;
+        cursor:pointer;
+        display:block;
+        
+        &:hover{
+
+            color:#fff;
+            background:#000000;
+        }
+    }
+
+    .google{
+        height:2.3rem;
+        color:#d6caca;
+        outline:none;
+        background:none;
+        background:rgb(1, 48, 92);
+        border:none;
+        border:rgb(1, 48, 92);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.95rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:63%;
+        margin:0.7rem auto 0 auto;
+        cursor:pointer;
+        display:block;
+
+        &:hover{
+
+            color:#fff;
+            background:rgb(11, 39, 65);
+        }
+    }
+
+    .addToCart{
+        height:2rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:#000000;
+        border:none;
+        border:0.1rem solid #000000;
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+        width:50%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+        display:block;
+        margin:0 auto;
+    }
+
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+    @media only screen and (min-width:481px) and (max-width:599px){
+
+        .signed{
+
+            height:2.3rem;
+            color:#fff;
+            outline:none;
+            background:none;
+            background:rgb(11, 39, 65);
+            border:none;
+            border:rgb(11, 39, 65);
+            border-radius:0.1rem;
+            font-weight:bold;
+            font-size:1rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align:center;
+            width:20%;
+            margin:0.8rem auto 0 auto;
+            cursor:pointer;
+            display:block;
+            
+    
+            &:hover{
+    
+                color:#fff;
+                background:#000000;
+            }
+        }
+
+        .google{
+            height:2.3rem;
+            color:#d6caca;
+            outline:none;
+            background:none;
+            background:rgb(1, 48, 92);
+            border:none;
+            border:rgb(1, 48, 92);
+            border-radius:0.1rem;
+            font-weight:bold;
+            font-size:1rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align:center;
+            width:52%;
+            margin:1rem auto 0 auto;
+            cursor:pointer;
+            display:block;
+    
+            &:hover{
+    
+                color:#fff;
+                background:rgb(11, 39, 65);
+            }
+        }
+
+        .addToCart{
+            height:2rem;
+            color:#fff;
+            outline:none;
+            background:none;
+            background:#000000;
+            border:none;
+            border:0.1rem solid #000000;
+            border-radius:0.1rem;
+            font-weight:bold;
+            font-size:0.8rem;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align:center;
+            width:50%;
+            margin:0.7rem 0 0 20%;
+            cursor:pointer;
+            display:block;
+            margin:0 auto;
+        }
+
+    }
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .signed{
+
+        height:2.3rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:rgb(11, 39, 65);
+        border:none;
+        border:rgb(11, 39, 65);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:20%;
+        margin:0.8rem auto 0 auto;
+        cursor:pointer;
+        display:block;
+        
+
+        &:hover{
+
+            color:#fff;
+            background:#000000;
+        }
+
+    }
+
+    .google{
+        height:2.3rem;
+        color:#d6caca;
+        outline:none;
+        background:none;
+        background:rgb(1, 48, 92);
+        border:none;
+        border:rgb(1, 48, 92);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:45%;
+        margin:1rem auto 0 auto;
+        cursor:pointer;
+        display:block;
+
+        &:hover{
+
+            color:#fff;
+            background:rgb(11, 39, 65);
+        }
+    }
+
+    
+    .addToCart{
+        height:2.3rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:#000000;
+        border:none;
+        border:0.1rem solid #000000;
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+        width:50%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+        display:block;
+        margin:0 auto;
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .signed{
+
+        height:2.3rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:rgb(11, 39, 65);
+        border:none;
+        border:rgb(11, 39, 65);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:28%;
+        margin:0.7rem 0 0 0;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:#000000;
+        }
+
+    }
+
+    .google{
+        height:2.3rem;
+        color:#d6caca;
+        outline:none;
+        background:none;
+        background:rgb(1, 48, 92);
+        border:none;
+        border:rgb(1, 48, 92);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:67%;
+        margin:0.7rem 0 0 5%;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:rgb(11, 39, 65);
+        }
+    }
+
+    .addToCart{
+        height:2.3rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:#000000;
+        border:none;
+        border:0.1rem solid #000000;
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+        width:55%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+        display:block;
+        margin:0 auto;
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .signed{
+
+        height:2.4rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:rgb(11, 39, 65);
+        border:none;
+        border:rgb(11, 39, 65);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:35%;
+        margin:0.8rem 0 0 0;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:#000000;
+        }
+
+    }
+    .google{
+        height:2.4rem;
+        color:#d6caca;
+        outline:none;
+        background:none;
+        background:rgb(1, 48, 92);
+        border:none;
+        border:rgb(1, 48, 92);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:50%;
+        margin:0.8rem 0 0 15%;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:rgb(11, 39, 65);
+        }
+    }
+
+    .addToCart{
+        height:2.4rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:#000000;
+        border:none;
+        border:0.1rem solid #000000;
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+        width:60%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+        display:block;
+        margin:0 auto;
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    .signed{
+       
+        height:2.5rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:rgb(11, 39, 65);
+        border:none;
+        border:rgb(11, 39, 65);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:30%;
+        margin:0.7rem 0 0 0;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:#000000;
+        }
+    }
+
+    .google{
+        height:2.5rem;
+        color:#d6caca;
+        outline:none;
+        background:none;
+        background:rgb(1, 48, 92);
+        border:none;
+        border:rgb(1, 48, 92);
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        width:50%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+
+        &:hover{
+
+            color:#fff;
+            background:rgb(11, 39, 65);
+        }
+
+    }
+
+    .addToCart{
+        height:2.5rem;
+        color:#fff;
+        outline:none;
+        background:none;
+        background:#000000;
+        border:none;
+        border:0.1rem solid #000000;
+        border-radius:0.1rem;
+        font-weight:bold;
+        font-size:0.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+        width:60%;
+        margin:0.7rem 0 0 20%;
+        cursor:pointer;
+        display:block;
+        margin:0 auto;
+}
+}

@@ -1,0 +1,85 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-gap:0.6rem;        
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-gap:0.7rem;
+
+        }
+    
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-gap:0.7rem;
+
+
+        }
+  
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-gap:0.8rem;
+
+       
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX 
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-gap:1rem;
+
+
+        }
+   
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+@media only screen and (min-width:1201px){
+    .shopcategories{
+        cursor:pointer;
+        margin:1rem 0 0 0;
+        display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-gap:1rem;
+
+    }
+}

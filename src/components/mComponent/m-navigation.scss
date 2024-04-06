@@ -1,0 +1,219 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX;
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .m-Nav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:1.2rem auto 0 auto;
+            
+
+        .horizontal{
+            display:flex;
+            flex-direction:column;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+            width:9%;
+            cursor:pointer;
+            height:2rem;
+            
+            .h-menus:nth-child(1){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.1rem;
+                
+            }
+            .h-menus:nth-child(2){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.42rem;
+            }
+            .h-menus:nth-child(3){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.7rem;
+                
+            }
+        }
+        .h{
+            color:#000000;
+            cursor:pointer;
+            width:50%;
+            height:2rem;
+            
+
+            h2{
+                height:2rem;
+                font-size:1.1rem;
+                text-align:center;
+                font-weight: bold;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                letter-spacing:2px;
+                cursor:pointer;
+                padding:0.3rem 0 0 4%;
+            }
+
+        }
+        .myIcon{
+            width:20%;
+            height:2rem;
+        }
+        
+    }
+    
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX;
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    .m-Nav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:2rem auto 0 auto;
+     
+
+        .horizontal{
+            display:flex;
+            flex-direction:column;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+            width:25%;
+            cursor:pointer;
+            height:2rem;
+                        
+            .h-menus:nth-child(1){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.1rem;
+                width:30%;
+            }
+            .h-menus:nth-child(2){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.3rem;
+                width:30%;
+            }
+            .h-menus:nth-child(3){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.41rem;
+                width:30%;
+                
+            }
+        }
+        .h2{
+            color:#000000;
+            cursor:pointer;
+            width:50%;
+            height:2rem;
+            border:0.2rem solid black;
+            
+
+            h3{
+                height:2rem;
+                text-align:center;
+                font-weight: bold;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                letter-spacing:2px;
+                cursor:pointer;
+            }
+
+        }
+        .myIcon{
+            width:18%;
+            height:2rem;
+        }
+        
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .m-Nav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        margin:2.5rem auto 0 auto;
+     
+
+        .horizontal{
+            display:flex;
+            flex-direction:column;
+            flex-wrap:nowrap;
+            justify-content:space-between;
+            width:15%;
+            cursor:pointer;
+            height:2rem;
+            
+            .h-menus:nth-child(1){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.1rem;
+                width:50%;
+            }
+            .h-menus:nth-child(2){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.3rem;
+                width:50%;
+            }
+            .h-menus:nth-child(3){
+                height:1.5rem;
+                border-bottom:0.1rem solid #000000;
+                position:relative;
+                top:-0.41rem;
+                width:50%;
+                
+            }
+        }
+        .h{
+            color:#000000;
+            cursor:pointer;
+            width:50%;
+            height:2rem;
+            
+
+            h2{
+                height:2rem;
+                text-align:center;
+                font-weight: bold;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                letter-spacing:2px;
+                cursor:pointer;
+                font-size:1.5rem;
+            }
+
+        }
+        .myIcon{
+            width:18%;
+            height:2rem;
+        }
+        
+    }
+    
+}
+
+
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769 TILL ...
+
+@media only screen and (min-width:769px){
+    .m-Nav{
+        display:none;
+    }
+
+}

@@ -1,0 +1,139 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX;
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .mobilemenu{
+        width:98%;
+        background:#000000;
+        height:1000%;
+        position:absolute;
+        left:-0.5rem;
+        top:-0.1rem;
+        z-index:1000;
+
+        .close{
+            margin:0.7rem 0 0 92%;
+            color:#fff;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:x-large;
+        }
+        
+        .links{
+            font-size:1rem;
+            display:block;
+            color:#fff;
+            font-weight:bolder;
+            margin:2rem 0 0 12%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bolder;
+            letter-spacing:0.1rem;
+
+            img{
+            position:relative;
+            width:8%;
+            height:1.5rem;
+            top:0.4rem;
+            right:4%;
+            }
+    
+        }
+    }
+
+   
+
+} 
+
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX;
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .mobilemenu{
+        width:98.5%;
+        background:#000000;
+        height:1000%;
+        position:absolute;
+        left:-0.5rem;
+        top:-0.1rem;
+        z-index:1000;
+
+        .close{
+            margin:0.7rem 0 0 94%;
+            color:#fff;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:x-large;
+        }
+        
+        .links{
+            font-size:1.2rem;
+            display:block;
+            color:#fff;
+            font-weight:bolder;
+            margin:2.2rem 0 0 12%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bolder;
+            letter-spacing:0.1rem;
+
+            img{
+                position:relative;
+                width:7%;
+                height:1.5rem;
+                top:0.3rem;
+                right:4%;
+                }
+    
+        }
+    }
+    
+
+   
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .mobilemenu{
+        width:98.5%;
+        background:#000000;
+        height:1000%;
+        position:absolute;
+        left:-0.5rem;
+        top:-0.1rem;
+        z-index:1000;
+
+        .close{
+            margin:0.7rem 0 0 94%;
+            color:#fff;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:x-large;
+        }
+        
+        .links{
+            font-size:1.3rem;
+            display:block;
+            color:#fff;
+            font-weight:bolder;
+            margin:2.2rem 0 0 12%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bolder;
+            letter-spacing:0.1rem;
+            img{
+                position:relative;
+                width:7%;
+                height:2rem;
+                top:0.5rem;
+                right:4%;
+                }
+    
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVIE WITH WIDTH 769PX TILL ...
+
+@media only screen and (min-width:769px){
+    .mobilemenu{
+        display:none;
+    }
+}

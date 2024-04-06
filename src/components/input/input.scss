@@ -1,0 +1,354 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1.15rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+   
+    input[type='email']{
+        margin:0 0 1.2rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.6rem;
+        }
+    }
+
+    input[type='password']{
+        margin:0 0 1.2rem 0;
+        width:74%;
+        &:focus{
+            position:relative;
+            top:0.6rem;
+        }
+    }
+
+    input[type='text']{
+        margin:0 0 1.2rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.6rem;
+        }
+    }
+
+    
+    input[type='number']{
+        margin:0 0 1.2rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.6rem;
+        }
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1.15rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+    
+    input[type='email']{
+        margin:0 0 1.5rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='password']{
+        margin:0 0 1.5rem 0;
+        width:74%;
+    
+        &:focus{
+        position:relative;
+        top:0.8rem;
+        }
+    }
+
+    input[type='text']{
+        margin: 0 0 1.5rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    
+    input[type='number']{
+        margin: 0 0 1.5rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1.15rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+    
+    input[type='email']{
+        margin:0 0 1.5rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='password']{
+        margin:0 0 1.5rem 0;
+        width:74%;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='text']{
+        margin: 0 0 1.5rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='number']{
+        margin: 0 0 1.5rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+
+    
+    input[type='email']{
+        margin:0 0 1.2rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+    input[type='password']{
+        margin:0 0 1.2rem 0;
+        width:74%;
+        &:focus{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+    input[type='text']{
+        margin:0 0 1.2rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+    input[type='number']{
+        margin:0 0 1.2rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+
+    
+    input[type='email']{
+        margin:0 0 1.3rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+    input[type='password']{
+
+        margin: 0 0 1.3rem 0;
+        width:74%;
+        &:hover{
+            position:relative;
+            top:0.7rem;
+        }
+       
+    }
+
+    input[type='text']{
+    
+        margin:0 0 1.3rem 0;
+        &:hover{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+    
+    input[type='number']{
+    
+        margin:0 0 1.3rem 0;
+        &:hover{
+            position:relative;
+            top:0.7rem;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    input{
+        width:100%;
+        height:1.8rem;
+        background:none;
+        border:none;
+        border-bottom:0.2rem solid #000000;
+        outline: none;
+        font-size:1rem;
+        border-radius:0.2rem;
+        cursor:pointer;
+        position:relative;
+        top:0;
+        transition:top 0.60s ease-in-out;
+
+    }
+
+    input[type='email']{
+        margin:0 0 1.3rem 0;
+        
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='password']{
+        margin:0 0 1.3rem 0;
+        width:74%;
+
+        &:focus{
+         position:relative;
+         top:0.8rem;
+        }
+    }
+
+    input[type='text']{
+        margin:0 0 1.3rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+
+    input[type='number']{
+        margin:0 0 1.3rem 0;
+
+        &:focus{
+            position:relative;
+            top:0.8rem;
+        }
+    }
+}

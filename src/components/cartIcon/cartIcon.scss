@@ -1,0 +1,250 @@
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH (320PX TILL 480PX)
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .icons{
+        width:45%;
+       
+    }
+    .count{
+        position:relative;
+        font-size:0.8rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-0.8rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+    .iconss{
+        width:45%;
+       
+    }
+    .countt{
+        position:relative;
+        font-size:0.9rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-0.8rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+
+}
+
+// THIS IS THE STYLING FOR DEVICE WITH WIDTH (481PX TILL 599PX)
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .icons{
+        width:38%;
+        position:relative;
+        top:-0.4rem;
+       
+    }
+     .count{
+        position:relative;
+        font-size:0.85rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-1.6rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+    .iconss{
+        width:38%;
+        position:relative;
+        top:-0.4rem;
+       
+    }
+     .countt{
+        position:relative;
+        font-size:0.85rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-1.6rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH (600PX TILL 768PX)
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .icons{
+        width:36%;
+        position:relative;
+        top:-0.4rem;
+       
+    }
+    .count{
+        position:relative;
+        font-size:0.9rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-1.6rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+    .iconss{
+        width:36%;
+        position:relative;
+        top:-0.4rem;
+       
+    }
+    .countt{
+        position:relative;
+        font-size:0.9rem;
+        cursor:pointer;
+        text-align:center;
+        font-weight:bold;
+        height:1.7rem;
+        width:100%;
+        top:-1.6rem;
+        padding:0.1rem 2% 0 2%;
+        
+    }
+
+   
+    
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH (769PX TILL 1024PX)
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .icons{
+        width:13%;
+        cursor:pointer;
+        position:relative;
+        top:0.3rem;
+        left:1.7%;
+
+    }
+    .count{
+        position:relative;
+        font-size:1rem;
+        cursor:pointer;
+        top:0.6rem;
+        text-align:center;
+        font-weight:bold;
+        height:1.4rem;
+        left:-5%;
+        
+    }
+    .iconss{
+        width:7%;
+        cursor:pointer;
+        position:relative;
+        top:0.3rem;
+    }
+    .countt{
+        position:relative;
+        top:1rem;
+        cursor:pointer;
+        font-weight:bold;
+        font-size:1rem;
+        text-align:center;
+        height:1.5rem;
+        left:-2%;
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH (1025PX TILL 1200PX)
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .icons{
+        width:13%;
+        cursor:pointer;
+        position:relative;
+        top:-0.2rem;
+        left:2%;
+
+    }
+    .count{
+        position:relative;
+        font-size:1rem;
+        cursor:pointer;
+        top:1rem;
+        text-align:center;
+        font-weight:bold;
+        height:1.4rem;
+        left:-5%;
+    }
+
+    .iconss{
+        width:7%;
+        cursor:pointer;
+        position:relative;
+        top:-0.2rem;
+    }
+    .countt{
+        position:relative;
+        top:1rem;
+        cursor:pointer;
+        font-weight:bold;
+        font-size:1rem;
+        text-align:center;
+        height:1.5rem;
+        left:-2%;
+    }
+        
+}
+
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH (1201 TILL ...)
+@media only screen and (min-width:1201px){
+    .icons{
+        width:13%;
+        cursor:pointer;
+        position:relative;
+        top:-0.5rem;
+    }
+    .count{
+        position:relative;
+        top:1rem;
+        cursor:pointer;
+        font-weight:bold;
+        font-size:1rem;
+        text-align:center;
+        height:1.5rem;
+        left:-5%;
+
+    }
+    .iconss{
+        width:7%;
+        cursor:pointer;
+        position:relative;
+        top:-0.5rem;
+    }
+    .countt{
+        position:relative;
+        top:1rem;
+        cursor:pointer;
+        font-weight:bold;
+        font-size:1rem;
+        text-align:center;
+        height:1.5rem;
+        left:-3.5%;
+    }
+}

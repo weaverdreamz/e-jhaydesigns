@@ -1,0 +1,238 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX{
+
+    @media only screen and (min-width:320px) and (max-width:480px){
+
+        .productss{
+            width:100%;
+            height:12rem;
+            
+    
+            img{
+                display:block;
+                height:11rem;
+                width:100%;
+            }
+            .footer{
+                display:flex;
+                flex-direction: row;
+                justify-content:space-between;
+                flex-wrap:nowrap;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position:relative;
+                top:-1.9rem;
+                font-size:0.5rem;
+                
+            }
+    
+            Button{
+                background:rgb(0 0 0 / 70%);
+                position:relative;
+                top:-3.5rem;
+                font-size:0.6rem;
+
+            }
+        }
+    }
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .productss{
+        width:100%;
+        height:14.2rem;
+       
+        
+
+        img{
+            display:block;
+            height:13rem;
+            width:100%;
+            
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position:relative;
+            top:-1.9rem;
+            font-size:0.7rem;
+            
+        }
+
+        Button{
+            background:rgb(0 0 0 / 70%);
+            position:relative;
+            top:-3.5rem;
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .productss{
+        width:100%;
+        height:16rem;
+        
+
+        img{
+            display:block;
+            height:15rem;
+            width:100%;
+       
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position:relative;
+            top:-1.9rem;
+            font-size:0.8rem
+        }
+
+        Button{
+            background:rgb(0 0 0 / 70%);
+            position:relative;
+            top:-3.8rem;
+        }
+    }
+}
+//THIS IS THE STYLING FOR DEVIE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .productss{
+        width:100%;
+        height:16rem;
+       
+        
+
+        img{
+            display:block;
+            height:14.5rem;
+            width:100%;
+          
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position:relative;
+            font-size:0.8rem;
+        }
+
+        Button{
+            background:rgb(0 0 0 / 70%);
+            position:relative;
+            top:-3.8rem;
+            display:none;
+        }
+
+        &:hover{
+            img{
+                opacity:0.7
+            }
+            Button{
+                display:block;
+            }
+            .footer{
+                top:-2.3rem;
+            }
+        }
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .productss{
+        width:100%;
+        height:17rem;
+        
+
+        img{
+            display:block;
+            width:100%;
+            height:15.5rem;
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position:relative;
+        }
+
+        Button{
+            background:rgb(0 0 0 / 70%);
+            position:relative;
+            top:-4rem;
+            display:none;
+        }
+
+        &:hover{
+            img{
+                opacity:0.7
+            }
+            Button{
+                display:block;
+            }
+            .footer{
+                top:-2.4rem;
+            }
+        }
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...;
+@media only screen and (min-width:1201px){
+
+    .productss{
+        width:100%;
+        height:18rem;
+        text-align:center;
+        
+
+        img{
+            display:block;
+            width:100%;
+            height:17rem;
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position:relative;
+        }
+
+        Button{
+            background:rgb(0 0 0 / 70%);
+            position:relative;
+            top:-4rem;
+            display:none;
+        }
+        &:hover{
+            img{
+                opacity:0.7
+            }
+            Button{
+                display:block;
+            }
+            .footer{
+                top:-2.5rem;
+            }
+        }
+
+
+    }
+    
+}

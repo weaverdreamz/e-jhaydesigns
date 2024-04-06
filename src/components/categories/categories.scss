@@ -1,0 +1,305 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX;
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .categories{
+        width:100%;
+        height:14rem;
+        margin:0.5rem 0 0 0;
+
+        img{
+            width:100%;
+            height:14rem;
+        }
+
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:14rem;
+            top:-14.26rem;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:30%;
+                top:6rem;
+                left:35%;
+                height:3.5rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1rem;
+
+                p{
+                    font-size:0.7rem;
+                    padding:0.1rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+        }
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    .categories{
+        width:49.36%;
+        height:16.3rem;
+
+        img{
+            width:100%;
+            height:16.3rem;
+        }
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:16.2rem;
+            top:-16.5rem;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:37%;
+                top:7rem;
+                left:31.5%;
+                height:3.5rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1rem;
+
+                p{
+                    font-size:0.7rem;
+                    padding:0.1rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .categories{
+        width:49.3%;
+        height:14.28rem; 
+        img{
+            width:100%;
+            height:14.28rem;
+        }
+
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:14.2rem;
+            top:-14.5rem;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:52%;
+                top:5.7rem;
+                left:25%;
+                height:3.5rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1rem;
+
+                p{
+                    font-size:0.7rem;
+                    padding:0.3rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+        }
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .categories{
+        width:49.5%;
+        height:17.3rem;
+
+        img{
+            width:100%;
+            height:17.3rem;
+        }
+
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:17.3rem;
+            top:-17.52rem;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:37%;
+                top:7rem;
+                left:31.5%;
+                height:3.5rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1rem;
+
+                p{
+                    font-size:0.7rem;
+                    padding:0.1rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .categories{
+        width:49.3%;
+        height:14.28rem; 
+        img{
+            width:100%;
+            height:14.28rem;
+        }
+
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:14.2rem;
+            top:-14.5rem;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:52%;
+                top:5.7rem;
+                left:25%;
+                height:3.5rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1rem;
+
+                p{
+                    font-size:0.7rem;
+                    padding:0.3rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+        }
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .categories{
+        width:49.4%;
+        height:16.28rem; 
+        img{
+            width:100%;
+            height:16.2rem;
+        }
+        .cartoverlay{
+            background:#03030336;
+            position:relative;
+            height:16.15rem;
+            top:-16.43rem;
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a56110;
+                width:47%;
+                top:7.5rem;
+                left:27%;
+                height:4rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1.2rem;
+
+                p{
+                    font-size:0.8rem;
+                    padding:0.3rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+        
+        }
+
+
+        }
+    }
+
+}
+    
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+    .categories{
+        width:49.5%;
+        height:16.9rem;
+        img{
+            width:100%;
+            height:16.9rem;
+        }
+        .cartoverlay{
+            background:#00000036;
+            position:relative;
+            height:16.93rem;
+            top:-17.18rem;
+            border:none;
+            cursor:pointer;
+
+            h2{
+                text-align:center;
+                position:absolute;
+                border:0.1rem solid #a53a10;
+                width:40%;
+                top:7.5rem;
+                left:30.5%;
+                height:4rem;
+                background:rgb(0 0 0 / 16%);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:0.5rem 0 0 0;
+                font-weight:bold;
+                font-size:1.2rem;
+
+                p{
+                    font-size:0.8rem;
+                    padding:0.3rem 0 0 0;
+                    text-align:center;
+                    font-style:italic;
+                }
+            }
+    
+        }
+    }
+}

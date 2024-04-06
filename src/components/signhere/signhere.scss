@@ -1,0 +1,56 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL ...
+
+@media only screen and (min-width:769px){
+
+    .signhere{
+        display:none
+    }
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .signhere{
+        display:block;
+        margin:0.7rem 0 0 8%;
+        cursor:pointer;
+
+        }
+
+        .signh{
+            color:rgb(11, 39, 65);
+        }
+
+
+}
+
+// /THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .signhere{
+        display:block;
+        margin:0.85rem 0 0 11.5%;
+        cursor:pointer;
+
+        }
+
+        .signh{
+            color:rgb(11, 39, 65);
+        }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .signhere{
+        display:block;
+        margin:0.85rem 0 0 17%;
+        cursor:pointer;
+        }
+
+        .signh{
+            color:rgb(11, 39, 65);
+        }
+}

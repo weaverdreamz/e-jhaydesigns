@@ -1,0 +1,251 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX;
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .checked{
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap:0.5rem;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:100%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:6rem;
+            font-size:0.6rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:5rem;
+                margin:0.3rem 0 0 0;
+            }
+            .rtag{
+                font-size:1rem;
+                padding:0 0 0 0.2rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:1rem;
+                padding:0 0.2rem 0 0;
+                cursor:pointer
+            }
+        }
+        .texts{
+            padding:1rem 0 0 0;
+        }
+       
+    }
+
+    
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX;
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .checked{
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap:0.5rem;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:100%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:6.5rem;
+            font-size:0.8rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:5.5rem;
+                margin:0.3rem 0 0 0;
+            }
+            .rtag{
+                font-size:1.3rem;
+                padding:0 0 0 0.5rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:1.3rem;
+                padding:0 0.5rem 0 0;
+                cursor:pointer;
+            }
+        }
+        .texts{
+            padding:1.8rem 0 0 0;
+        }
+       
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX;
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+    .checked{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:19%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:7.5rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:6.8rem;
+                margin:0.2rem 0 0 0;
+            }
+            .rtag{
+                font-size:1.4rem;
+                padding:0 0 0 0.5rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:1.4rem;
+                padding:0 0.5rem 0 0;
+                cursor:pointer
+            }
+        }
+        .texts{
+            padding:1.7rem 0 0 0;
+        }
+       
+    }
+
+    
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX;
+
+@media only screen and (min-width:769px) and (max-width:1200px){
+
+    .checked{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:19%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:9rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:8.5rem;
+                margin:0.2rem 0 0 0;
+            }
+            .rtag{
+                font-size:1.5rem;
+                padding:0 0 0 0.5rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:1.5rem;
+                padding:0 0.5rem 0 0;
+                cursor:pointer
+            }
+        }
+        .texts{
+            padding:2.3rem 0 0 0;
+        }
+       
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX;
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .checked{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:19%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:10rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:9rem;
+                margin:0.3rem 0 0 0;
+            }
+            .rtag{
+                font-size:2rem;
+                padding:0 0 0 0.5rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:2rem;
+                padding:0 0.5rem 0 0;
+                cursor:pointer
+            }
+        }
+        .texts{
+            padding:2.3rem 0 0 0;
+        }
+       
+    }
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+@media only screen and (min-width:1201px){
+    .checked{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        border-bottom:0.1rem solid gray;
+        margin:0.1rem 0 0 0;
+        .checkedi{
+            width:19%;
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            height:10rem;
+            cursor:pointer;
+                
+            img{
+                width:100%;
+                height:9.5rem;
+                margin:0.2rem 0 0 0;
+            }
+            .rtag{
+                font-size:2rem;
+                padding:0 0 0 0.5rem;
+                cursor:pointer;
+            }
+            .ltag{
+                font-size:2rem;
+                padding:0 0.5rem 0 0;
+                cursor:pointer
+            }
+        }
+        .texts{
+            padding:2.5rem 0 0 0;
+        }
+       
+    }
+}
